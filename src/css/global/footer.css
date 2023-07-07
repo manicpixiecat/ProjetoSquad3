@@ -7,27 +7,25 @@
 
 .footer {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
+    font-size: 17px;
     position: relative;
     bottom: 0;
     background-color: #c2c1c1;
+    height: 200px;
+}
+
+.informacoes{
     color: rgb(61, 7, 7);
-    /* text-align: center; */
-    /* font-size: 25px; */
 }
-a{
-    text-decoration: none;
-    color: #cb6228;
-}
-
-a:hover{
-    color: #f0cfb3;
-}
-
 
 li{
     list-style: none; 
-    padding: 5px;
+    padding: 1px;
+}
+
+.botao-footer{
+    font-size: 20px;
+    padding: 7px;
 }
 
 .container-footer {
@@ -36,20 +34,13 @@ li{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-
-}
-
-
-.logo-imagem img {
-    width: 200px;
-}
-
-.mapa-do-site,.informacoes nav ul li {
-    line-height: 1.6;
+    height: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 .mapa-do-site a:hover {
-    color: black;
+    color: #f0cfb3;
 }
 
 .social-media {
@@ -62,5 +53,5 @@ li{
 }
 
 .social-media a:hover {
-    opacity: 1;
+    opacity: 2;
 }
