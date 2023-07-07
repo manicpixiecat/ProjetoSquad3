@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,12 @@
     <link rel="stylesheet" href="login.css">
     <script src="login.js" defer></script>
 </head>
+
 <body>
     <header class="header">
         <div class="container-header">
             <div class="logo">
-             <p>Imagem</p>
+                <p>Imagem</p>
             </div>
             <nav class="navegacao">
                 <a href="">Home</a>
@@ -26,5 +28,22 @@
             </nav>
         </div>
     </header>
+    <div class="formularioLogin">
+        <h2>Login</h2>
+        <form>
+            <div class="campoUsuario">
+                <label for="username">Usuário:</label>
+                <input type="text" id="seuLogin" name="seuLogin" required>
+            </div>
+            <div class="campoSenha">
+                <label for="password">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+            <div class="botaoEntrar">
+                <input type="submit" value="Entrar">
+            </div>
+        </form>
+    </div>
 </body>
+
 </html>
