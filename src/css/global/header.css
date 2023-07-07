@@ -7,14 +7,13 @@
 
 .header {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     backdrop-filter: blur(10px);
     background-color: rgb(255, 255, 255);
     position: relative;
     top: 0;
-    height: 120px;
+    height: 110px;
     width: auto;
-
 }
 
 a{
@@ -36,19 +35,6 @@ a:hover{
     height: 100%;
 }
 
-.registro{
-    margin-left: 30px;
-    padding-right: 25px;
-}
-
-.imagem-logo {
-    width: 220px;
-}
-
-.logo{
-    /* margin-left: 55px; */
-}
-
 .navegacao {
     display: flex;
 }
@@ -57,3 +43,11 @@ a:hover{
     padding-left: 25px;
 }
 
+.registro{
+    margin-left: 30px;
+    padding-right: 25px;
+}
+
+.imagem-logo {
+    width: 220px;
+}
