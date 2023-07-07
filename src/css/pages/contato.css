@@ -6,31 +6,33 @@
 }
 
 .container{
-    background-color: rgb(30, 255, 0);
+    /* background-color: rgb(30, 255, 0); */
     padding: 60px;
+    font-family: 'Josefin Sans', sans-serif;
 
 }
 
 .titulo-contato{
-    background-color: blue;
+    /* background-color: blue; */
     text-align: center;
     padding: 15px;
     margin-bottom: 10px;
 }
 
 .contatos{
-    background-color: rgb(255, 255, 255);
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    border: 2px;
     border-radius: 10px;
-    border-style: solid;
-    box-shadow: 0 4px 30px rgb(0, 0, 0);
+    box-shadow: 0 4px 30px rgb(255, 189, 89);
     backdrop-filter: blur(3.4px);
     -webkit-backdrop-filter: blur(3.4px);
+}
+
+h4{
+    padding: 2px;
 }
 
 .integrantes{
@@ -50,7 +52,19 @@
 }
 
 .foto-integrantes{
+    margin-bottom: 5px;
     width: 200px;
     height: 200px;
     border-radius: 10px;
+}
+
+.icones-sociais{
+    margin-top: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.icones-sociais:hover{
+    color: aqua;
+    
 }
