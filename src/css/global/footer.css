@@ -39,6 +39,11 @@ li{
     padding-left: 25px;
 }
 
+.logo-sociais{
+    width: 30px;
+    height: 30px;
+}
+
 .mapa-do-site a:hover {
     color: #f0cfb3;
 }
