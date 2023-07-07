@@ -1,0 +1,44 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(132, 83, 9);
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+.formularioLogin{
+    background-color: rgba(255, 235, 205, 0.507);
+    text-align: center;
+    height: 400px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 80px;
+    padding: 30px;
+}
+.formularioLogin h2{
+    font-size:xx-large;
+    padding: 20px;
+}
+.campoEmail{
+    background-color: green;
+    margin: 10px;
+    height: 40px;
+}
+.espacoEmail{
+background-color: blueviolet;
+}
+.campoSenha{
+    background-color: blue;
+    height: 40px;
+}
+.redefinirSenha{
+    background-color: blueviolet;
+}
