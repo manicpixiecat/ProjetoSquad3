@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.planos-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.plan {
+    margin: 25px;
+    flex-basis: 20%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.plan h2 {
+    color: #333;
+    text-align: center;
+}
+
+.plan p {
+    color: #666;
+    text-align: center;
+}
+
+li{
+    font-size: 18px;
+    margin: 7px;
+}
+button{
+    width: 100px;
+    padding: 10px;
+    margin: 30px;
+    font-size: 15px;
+}
