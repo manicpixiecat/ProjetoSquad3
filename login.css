@@ -1,20 +1,21 @@
 /* reset css */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(132, 83, 9);
 }
 
-.header{
+.header {
     background-color: rgb(255, 255, 255);
     padding: 20px;
     margin-bottom: 80px;
 }
 
-.formularioLogin{
+.formularioLogin {
     background-color: rgba(255, 235, 205, 0.507);
     text-align: center;
     height: 400px;
@@ -22,24 +23,12 @@ body{
     margin-right: 400px;
     border-radius: 80px;
     padding: 30px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    ;
 }
-.formularioLogin h2{
-    font-size:xx-large;
+
+.formularioLogin h2 {
+    font-size: xx-large;
     padding: 20px;
 }
-.campoEmail{
-    background-color: green;
-    margin: 10px;
-    height: 40px;
-}
-.espacoEmail{
-background-color: blueviolet;
-}
-.campoSenha{
-    background-color: blue;
-    height: 40px;
-}
-.redefinirSenha{
-    background-color: blueviolet;
-}
+
