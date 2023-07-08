@@ -1,11 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
 }
+main{
+    background-color: #661923;
+}
 
 h1 {
+    font-family: 'Courgette', cursive;
+    padding: 40px;
     text-align: center;
+    font-size: 40px;
 }
 
 .planos-container {
@@ -14,21 +19,21 @@ h1 {
     align-items: flex-start;
 }
 
-.plan {
+.planos {
     margin: 25px;
     flex-basis: 20%;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: rgb(201, 201, 197);
     border-radius: 5px;
     text-align: center;
 }
 
-.plan h2 {
+.planos h2 {
     color: #333;
     text-align: center;
 }
 
-.plan p {
+.planos p {
     color: #666;
     text-align: center;
 }
