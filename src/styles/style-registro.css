@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* Ajuste geral */
+*{
+    padding: 0px;
+    font-family: 'McLaren', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------------- */
+
+/* Estilização da página de registro */
+.box-father-registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 5px 30px 20px 30px;
+}
+
+.box-child-registro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box-father-registro{
+    border-radius: 20px;
+}
+
+.box-registro input{
+    background-color:#ffb4b4ad;   
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+/* ------------------ */
