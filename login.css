@@ -31,5 +31,18 @@ body {
     z-index: 100;
 }   
 
-
+#continuar {
+    background-color: #c107ff;
+    color: #000000;
+    font-size: 20px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+  }
+  input {
+    width: 300px;
+    padding: 8px;
+    border-radius: 7px;
+    border: none
+  }
 
