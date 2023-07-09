@@ -11,13 +11,7 @@ body {
 }
 
 /* Edição do cabeçalho */
-.header {
-    background-color: rgb(228, 228, 228);
-    padding: 20px;
-    margin-bottom: 80px;
-    display: flex;
-    flex-direction: row;
-}
+
 
 /*Edição do login e senha*/
 .formularioLogin {
