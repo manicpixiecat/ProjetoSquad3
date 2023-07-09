@@ -1,0 +1,50 @@
+body{
+    background-color: #935122;
+    text-align: left;
+    display: flex;
+
+}
+img{
+    width: 400px;
+    height: 300px;
+    margin-top: 100px;
+    border-radius: 20px;
+    justify-content: end;
+    margin-left: -200px;
+    
+    
+}
+p {
+    text-align: start;
+    color: aliceblue;
+    font-size: 15px;
+    text-align:initial;
+    margin-right: 200px;
+    margin-top:40px;
+
+
+
+    
+    
+
+}
+button {
+    width: 300px;
+    height: 70px;
+    margin-top: 450px;
+    margin-left: -330px;
+    border-radius: 50px;
+    background-color: black;
+    color: aliceblue;
+    border: solid 2px  #eb731d;
+    cursor: pointer;
+}
+div {
+    margin-right: 20px;
+  
+}
+.textoHome{
+    column-count: 1;
+    
+
+}
