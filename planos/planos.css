@@ -1,0 +1,46 @@
+main{
+    background-color: #661923;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    padding: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.planos-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.planos {
+    margin: 25px;
+    flex-basis: 20%;
+    padding: 20px;
+    background-color: rgb(201, 201, 197);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.planos h2 {
+    color: #333;
+    text-align: center;
+}
+
+.planos p {
+    color: #666;
+    text-align: center;
+}
+
+li{
+    font-size: 18px;
+    margin: 7px;
+}
+button{
+    width: 100px;
+    padding: 10px;
+    margin: 30px;
+    font-size: 15px;
+}
