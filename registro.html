@@ -11,15 +11,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=McLaren&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/styles/style-registro.css">
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/footer.css">
     <script src="./src/script/registro-script.js" defer></script>
     <!-- ------------- -->
 </head>
 
 <body>
-    <header></header>
-    <main id="registro">
+    <header class="header">
+        <!-- Container para melhor estilização -->
+        <div class="container-header">
+            <!-- Logo da empresa -->
+            <div class="logo">
+                <img class = "imagem-logo" src="./src/img/logo.png" />
+            </div>
+            <!-- Seções do site -->
+            <nav class="navegacao">
+                <a href="">Home</a>
+                <a href="">Assinaturas</a>
+                <a href="">Contato</a>
+                <div class="registro">
+                    <a href="">Registro</a>
+                    <a>/</a>
+                    <a href="">Login</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="registro">
+        <!-- Box para a seção de registro -->
         <div class="box-father-registro">
             <h3>Registre-se</h3>
+            <!-- Formulário para a entrada de dados do usuário -->
             <form>
                 <div class="box-child-registro">
                     <div class="box-registro">
@@ -59,6 +82,44 @@
             </form>
         </div>
     </main>
+    <footer class="footer">
+        <!-- Container para estilização -->
+        <div class="container-footer">
+            <!-- Logo da empresa -->
+            <div class="logo">
+                <img class = "imagem-logo" src="./src/img/logo.png" alt="" />
+            </div>
+            <!-- Links para acesso as outras páginas -->
+            <nav class="mapa-do-site">
+                <menu>
+                    <li class="botao-footer"><a href="">Home</a></li>
+                    <li class="botao-footer"><a href="">Assinaturas</a></li>
+                    <li class="botao-footer"><a href="">Contato</a></li>
+                </menu>
+            </nav>
+            <!-- Classe de infomações da nossa empresa -->
+            <div class="informacoes">
+                <ul>
+                    <li>Endereço: R. Carlos Gomes, 150 - Curitiba</li>
+                    <li>Telefone: (41) 9 98002-8922</li>
+                    <li>CNPJ: 25.147.528/0001-01</li>
+                    <li>Todos os direitos reservados.</li>
+                </ul>
+            </div>
+            <!-- Mídias sociais -->
+            <div class="social-media">
+                <a href="Instagram.com" target="_blank">
+                    <img class="logo-sociais" src="./src/img/Icones/instagram.png" alt="Ícone do Instagram" />
+                </a>
+                <a href="whatsapp.com" target="_blank">
+                    <img class="logo-sociais" src="./src/img/Icones/whatsapp.png" alt="Ícone do whatsappp " />
+                </a>
+                <a href="https://github.com/manicpixiecat/ProjetoSquad3/tree/main" target="_blank">
+                    <img class="logo-sociais" src="./src/img/Icones/github-footer.png" alt="Ícone do GitHub" />
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

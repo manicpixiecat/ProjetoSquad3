@@ -8,15 +8,20 @@
 
 body {
     background-color: blueviolet;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* ---------------- */
 
 /* Estilização da página de registro */
+.registro {
+    height: 86%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .box-father-registro {
+    margin: 15px;
+    width: max-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
