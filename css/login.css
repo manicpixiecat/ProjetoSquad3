@@ -1,0 +1,49 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Edição do corpo da página*/
+body {
+    background-color: rgb(132, 83, 9);
+}
+
+/* Edição do cabeçalho */
+
+
+/*Edição do login e senha*/
+.formularioLogin {
+    background-color: rgba(255, 235, 205, 0.507);
+    text-align: center;
+    height: 400px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 80px;
+    padding: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+
+/*Edição dos campos para preenhcer*/
+input {
+    width: 300px;
+    padding: 8px;
+    border-radius: 7px;
+    border: none
+}
+
+/* Edição do botão continuar*/
+#continuar {
+    background-color: #c107ff;
+    color: #000000;
+    font-size: 20px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+}
