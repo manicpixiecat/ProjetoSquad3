@@ -11,9 +11,6 @@ body {
     background-color: #d16822;
 }
 
-/* Edição do cabeçalho */
-
-
 /*Edição do login e senha*/
 .formularioLogin {
     background-color: rgba(255, 235, 205, 0.507);
@@ -25,7 +22,7 @@ body {
     margin-right: 400px;
     border-radius: 80px;
     padding: 30px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 2px 2px 3px rgba(0, 0, 0, 0.4);
     display: flex;
     flex-direction: column;
     justify-content: space-around;

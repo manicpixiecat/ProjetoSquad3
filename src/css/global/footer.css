@@ -9,9 +9,9 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 17px;
     position: relative;
-    bottom: 0;
     background-color: #c2c1c1;
-    height: 180px;
+    height: 32vh;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.4);
 }
 
 .informacoes{

@@ -1,6 +1,7 @@
 @charset "UTF-8";
+
 /* Ajuste geral */
-*{
+* {
     padding: 0px;
     font-family: 'McLaren', cursive;
     box-sizing: border-box;
@@ -13,41 +14,61 @@ body {
 /* ---------------- */
 
 /* Estilização da página de registro */
+main {
+    height: 100vh;
+}
+
 .registro {
-    height: 86%;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .box-father-registro {
     margin: 15px;
+    height: max-content;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
     width: max-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    padding: 5px 30px 20px 30px;
+    background-color: rgba(255, 235, 205, 0.507);
+    padding: 30px;
+    box-shadow: 1px 2px 2px 3px rgba(0, 0, 0, 0.4);
 }
 
-.box-child-registro{
+.box-child-registro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 18px;
 }
 
-.box-father-registro{
+.box-father-registro {
     border-radius: 20px;
 }
 
-.box-registro input{
-    background-color:#ffb4b4ad;   
+.box-registro input {
     border-radius: 10px;
     width: 300px;
     height: 30px;
     padding-left: 5px;
+    border: none
 }
+
+.box-registro-button input {
+    background-color: #c107ff;
+    font-size: 20px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+}
+
 
 /* ------------------ */
