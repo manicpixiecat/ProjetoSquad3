@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    font-family: 'McLaren', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #935122;
+}
+
+/* Estilização da página home */
+
+main {
+    display: flex;
+}
+
+.box-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 50rem;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.textoHome {
+    background-color: aliceblue;
+    margin: 10px;
+    width: 50rem;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.textoHome p {
+    text-align: justify;
+}
