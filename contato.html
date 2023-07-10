@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/pages/contato.css">
+    <link rel="stylesheet" href="./src/css/global/header.css">
+    <link rel="stylesheet" href="./src/css/global/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -11,7 +13,26 @@
 </head>
 <body>
     <!-- Cabeçario da página -->
-    <header></header>
+    <header class="header">
+        <!-- Container para melhor estilização -->
+        <div class="container-header">
+            <!-- Logo da empresa -->
+            <div class="logo">
+                <img class = "imagem-logo" src="./src/img/logo.png" />
+            </div>
+            <!-- Seções do site -->
+            <nav class="navegacao">
+                <a href="">Home</a>
+                <a href="">Assinaturas</a>
+                <a href="">Contato</a>
+                <div class="registro">
+                    <a href="">Registro</a>
+                    <a>/</a>
+                    <a href="">Login</a>
+                </div>
+            </nav>
+        </div>
+    </header>
     <!-- Conteúdo principal da página -->
     <main class="container">
         <div class="contatos">
@@ -74,6 +95,41 @@
         <!-- Título da página -->
         <h1 class="titulo-contato">Entre em contato com a nossa equipe!</h1>
     </main>
-
+    <!-- Rodapé -->
+    <footer>
+        <!-- Container para estilização -->
+        <div class="container-footer">
+            <!-- Logo da empresa -->
+            <div class="logo">
+                <img class = "imagem-logo" src="./src/img/logo.png" alt="" />
+            </div>
+            <!-- Links para acesso as outras páginas -->
+            <nav class="mapa-do-site">
+                <menu>
+                    <li class="botao-footer"><a href="">Home</a></li>
+                    <li class="botao-footer"><a href="">Assinaturas</a></li>
+                    <li class="botao-footer"><a href="">Contato</a></li>
+                </menu>
+            </nav>
+            <!-- Classe de infomações da nossa empresa -->
+            <div class="informacoes">
+                <ul>
+                    <li>Endereço: R. Carlos Gomes, 150 - Curitiba</li>
+                    <li>Telefone: (41) 9 98002-8922</li>
+                    <li>CNPJ: 25.147.528/0001-01</li>
+                    <li>Todos os direitos reservados.</li>
+                </ul>
+            </div>
+            <!-- Mídias sociais -->
+            <div class="social-media">
+                <a href="https://instagram.com/" target="_blank">
+                    <img class="logo-sociais" src="./src/img/Icones/instagram-footer.png" alt="Ícone do Instagram" />
+                </a>
+                <a href="https://github.com/manicpixiecat/ProjetoSquad3/tree/main" target="_blank">
+                    <img class="logo-sociais" src="./src/img/Icones/github-footer.png" alt="Ícone do GitHub" />
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
