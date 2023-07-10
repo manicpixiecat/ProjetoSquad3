@@ -9,14 +9,13 @@
     /* background-color: rgb(30, 255, 0); */
     padding: 60px;
     font-family: 'Josefin Sans', sans-serif;
-
 }
 
 .titulo-contato{
     /* background-color: blue; */
     text-align: center;
-    padding: 15px;
-    margin-top: 13px;
+    /* padding: 15px; */
+    margin-top: 50px;
 }
 
 .contatos{
@@ -24,7 +23,7 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 30px rgb(255, 189, 89);
     backdrop-filter: blur(3.4px);
@@ -36,23 +35,26 @@ h4{
 }
 
 .integrantes{
-    background-color: rgb(255, 194, 114);
+    /* background-color: rgb(255, 194, 114); */
     text-align: center;
     /* display: flex; */
-    border: 1px;
     border-radius: 10px;
-    border-style: solid;
+    /* border-style: solid; */
     padding: 5px;
+    width: 300px;
+    height: 320px;
+    /* margin-right: auto; */
     /* margin-inline: 20px; */
     /* margin-block-start: 25px; */
 }
 .integrantes:hover{
-    background-color: blue;
+    background-color: rgba(243, 200, 136, 0.438)
     
 }
 
 .foto-integrantes{
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 8px;
     width: 200px;
     height: 200px;
     border-radius: 10px;
