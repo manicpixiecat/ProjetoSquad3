@@ -8,7 +8,6 @@
 .header {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
-    backdrop-filter: blur(10px);
     background-color: rgb(255, 255, 255);
     position: relative;
     top: 0;
