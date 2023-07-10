@@ -5,13 +5,14 @@
     box-sizing: border-box;
 }
 
-.footer {
+footer{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 17px;
-    position: relative;
+    position:relative;
     bottom: 0;
     background-color: #c2c1c1;
     height: 200px;
+
 }
 
 .informacoes{
