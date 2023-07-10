@@ -19,6 +19,8 @@ body {
     background-color: rgba(255, 235, 205, 0.507);
     text-align: center;
     height: 400px;
+    margin-top: 80px;
+    margin-bottom: 100px;
     margin-left: 400px;
     margin-right: 400px;
     border-radius: 80px;
