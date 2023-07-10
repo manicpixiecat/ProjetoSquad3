@@ -1,4 +1,4 @@
-// FUNÇÃO LOGAR NA PAG LOGIN
+// FUNÇÃO LOGAR NA PAG LOGIN//
 
 function logar() {
     var email = document.getElementById("email").value;
