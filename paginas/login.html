@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=McLaren&display=swap" rel="stylesheet">
     <!-- Link para o script da página -->
-    <script src="script/login.js" defer></script>
+    <script src="../src/script/login.js" defer></script>
 </head>
 
 <body>
@@ -46,13 +46,13 @@
         <input id="email" type="text" placeholder="Digite seu e-mail">
 
         <!--Campo para inserir a senha-->
-        <input id="asenha" type="password" placeholder="Digite sua senha">
+        <input id="senha" type="password" placeholder="Digite sua senha">
 
         <!--Redefinição de senha-->
         <p> Esqueceu a sua <a href="">senha?<p></a></p>
 
         <!--Botão para continuar-->
-        <a href=""><button id="continuar" type="button" class="">Continuar</button></a>
+        <a href=""><button id="continuar" type="submit" onclick="logar()" >Continuar</button></a>
 
         <!--Assinatura Devinho-->
         <p>Ainda não assinou a DeVinho?<a href=""> Assine já!</a></p>
