@@ -62,7 +62,7 @@ main {
     border: none
 }
 
-.box-registro-button input {
+.box-registro-button button {
     background-color: #c107ff;
     font-size: 20px;
     width: 150px;

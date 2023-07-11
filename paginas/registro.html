@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=McLaren&display=swap" rel="stylesheet">
     <!-- Link para o script da página -->
-    <script src="" defer></script>
+    <script src="../src/js/registro-script.js" defer></script>
     <!-- ------------- -->
 </head>
 
@@ -51,7 +51,7 @@
                         <input type="text" id="nome-registro" required placeholder="Nome">
                     </div>
                     <div class="box-registro">
-                        <input type="text" id="RG-registro" required placeholder="RG">
+                        <input type="number" id="RG-registro" required placeholder="RG">
                     </div>
                     <div class="box-registro">
                         <input type="text" id="email-registro" required placeholder="Email">
@@ -63,7 +63,7 @@
                         <input type="text" id="confirmacao-senha-registro" required placeholder="Confirme a senha">
                     </div>
                     <div class="box-registro">
-                        <input type="text" id="cep-registro" required placeholder="CEP">
+                        <input type="number" id="cep-registro" required placeholder="CEP">
                     </div>
                     <div class="box-registro">
                         <input type="text" id="cidade-registro" required placeholder="Cidade">
@@ -78,10 +78,13 @@
                         <input type="text" id="rua-registro" required placeholder="Rua">
                     </div>
                     <div class="box-registro">
+                        <input type="text" id="complemento-registro" required placeholder="Complemento">
+                    </div>
+                    <div class="box-registro">
                         <input type="text" id="numero-registro" required placeholder="Numero">
                     </div>
                     <div class="box-registro-button">
-                        <input type="submit" value="Registrar!">
+                        <button type="submit" id="botao-registro">Registrar!</button>
                     </div>
                 </div>
             </form>
