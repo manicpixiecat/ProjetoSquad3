@@ -6,7 +6,7 @@
 }
 
 header{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'McLaren', cursive;
     font-size: 20px;
     backdrop-filter: blur(10px);
     background-color: rgb(255, 255, 255);
@@ -23,7 +23,7 @@ a{
 }
 
 a:hover{
-    color: #f0cfb3;
+    color: #b18662;;
 }
 
 .container-header {
@@ -50,7 +50,7 @@ a:hover{
 }
 
 .imagem-logo {
-    margin-left: 25px;
-    width: 350px;
+    margin-top: 8px;
+    width: 200px;
 }
 
