@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.header {
+header{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     backdrop-filter: blur(10px);
