@@ -10,10 +10,9 @@ body{
 }
 
 h1 {
-    font-family: 'Courgette', cursive;
     padding: 40px;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .planos-container {
