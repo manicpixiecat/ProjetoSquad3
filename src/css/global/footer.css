@@ -5,12 +5,12 @@
     box-sizing: border-box;
 }
 
-.footer {
-    font-family: 'Josefin Sans', sans-serif;
+footer{
+    font-family: 'McLaren', cursive;
     font-size: 17px;
     position: relative;
-    background-color: #c2c1c1;
-    height: 32vh;
+    background-color: #f7c79a;
+    height: 23vh;
     box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.4);
 }
 
@@ -28,7 +28,7 @@ li{
     padding: 7px;
 }
 
-.container-footer {
+.container-footer{
     display: flex;
     gap: 16px;
     justify-content: space-between;
@@ -44,20 +44,20 @@ li{
     height: 30px;
 }
 
-.mapa-do-site a:hover {
-    color: #f0cfb3;
+.mapa-do-site a:hover{
+    color: #b18662;
 }
 
-.social-media {
+.social-media{
     display: flex;
     gap: 12px;
 }
 
-.social-media a {
+.social-media a{
     opacity: 0.8;
 }
 
-.social-media a:hover {
-    opacity: 2;
+.social-media a:hover{
+    opacity: 4;
 }
 
