@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Links para estilização -->
-    <link rel="stylesheet" href="../src/css/pages/login.css">
+    <link rel="stylesheet" href="../src/css/pages/recuperacao.css">
     <link rel="stylesheet" href="../src/css/global/header.css">
     <link rel="stylesheet" href="../src/css/global/footer.css">
     <!-- Link para o estilo da fonte -->
@@ -39,24 +39,16 @@
         </div>
     </header>
     <!--Campos para preencher o login-->
-    <div class="formularioLogin">
-        <h1>DeVinho</h1>
-
-        <!--Campo para inserir e-mail-->
-        <input id="email" type="text" placeholder="Digite seu e-mail">
-
-        <!--Campo para inserir a senha-->
-        <input id="senha" type="password" placeholder="Digite sua senha">
-
-        <!--Redefinição de senha-->
-        <p> Esqueceu a sua <a href="recuperacao.html">senha?<p></a></p>
-
-        <!--Botão para continuar-->
-        <a href=""><button id="continuar" type="submit" onclick="logar()" >Continuar</button></a>
-
-        <!--Assinatura Devinho-->
-        <p>Ainda não assinou a DeVinho?<a href="assinaturas.html"> Assine já!</a></p>
-    </div>
+    <main id="recuperacao">
+        <div class="box-recuperacao">
+            <h2>Recuperação de senha</h2>
+            <!--Campo para inserir e-mail-->
+            <input id="email-recuperacao" type="text" placeholder="Digite seu e-mail">
+            <!--Redefinição de senha-->
+            <!--Botão para continuar-->
+            <a href=""><button id="enviar-email-rec" type="submit">Enviar!</button></a>
+        </div>
+    </main>
     <footer class="footer">
         <!-- Container para estilização -->
         <div class="container-footer">
