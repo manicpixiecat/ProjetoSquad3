@@ -18,4 +18,4 @@ function logar() {
 function validarEmail(email) {
     var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
-  }
+}

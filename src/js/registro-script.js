@@ -1,5 +1,3 @@
-import { validarEmail } from "./login"
-
 const nome = document.getElementById('nome-registro').value 
 const rg = document.getElementById('RG-registro').value
 const email = document.getElementById('email-registro').value
