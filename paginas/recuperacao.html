@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=McLaren&display=swap" rel="stylesheet">
     <!-- Link para o script da página -->
     <script src="../src/script/login.js" defer></script>
+    <script src="../src/js/mensagem.js"></script>
 </head>
 
 <body>
@@ -46,7 +47,8 @@
             <input id="email-recuperacao" type="text" placeholder="Digite seu e-mail">
             <!--Redefinição de senha-->
             <!--Botão para continuar-->
-            <a href=""><button id="enviar-email-rec" type="submit">Enviar!</button></a>
+            <button id="enviar-email-rec" onclick="exibirMensagem()">Enviar!</button>
+            <div id="mensagem"></div>
         </div>
     </main>
     <footer class="footer">
