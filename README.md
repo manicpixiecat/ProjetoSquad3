@@ -59,7 +59,8 @@ A equipe Squad3 é composta pelos seguintes membros e papéis assumidos no squad
 <h4>O projeto Squad3 é uma plataforma de serviço por assinatura que visa atender a a plataforma de serviço por assinatura que visa atender aos de bebidas, oferecendo uma experiência única de descoberta e apreciação de vinhos de diferentes regiões e estilo semanalmente. Nosso publico alvo são desde jovens que gostariam de apreciar uma nova experiência semanalmente sozinhos ou com amigos, até para familias que buscam mais comodidade na hora de celebrarem datas festivas em familia tendo que se preocupar com uma preparação a menos nessas datas.</h4>
 
 Durante o desenvolvimento do projeto, tomamos as seguintes decisões e abordagens decidimos separar as pastas de HTML e Css facilitando a manutenção e revisão do código deixando a estrutura mais organizada como está abaixo
-```📦 paginas
+```
+📦 paginas
  ┣ 📂 ...
  ┃ ┣ 📜 assinaturas.html
  ┃ ┣ 📜 contato.html
