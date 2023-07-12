@@ -5,20 +5,20 @@
     box-sizing: border-box;
     font-family: 'McLaren', cursive;
 }
-
+/* Estilização da cor da página */
 body {
     background-color: #d16822;
 }
-
-.container{
-    padding: 60px;
-}
-
+/* Título */
 .titulo-contato{
     text-align: center;
     margin-top: 50px;
 }
-
+/* Divisão do conteúdo */
+.container{
+    padding: 60px;
+}
+/* Estilização da div onde contém os contatos */
 .contatos{
     display: flex;
     flex-flow: row wrap;
@@ -30,11 +30,7 @@ body {
     backdrop-filter: blur(3.4px);
     -webkit-backdrop-filter: blur(3.4px);
 }
-
-h4{
-    padding: 2px;
-}
-
+/* Estilização da foto e do campo de cada integrante */
 .integrantes{
     text-align: center;
     border-radius: 10px;
@@ -42,10 +38,11 @@ h4{
     width: 300px;
     height: 340px;
 }
+/* Hover da divisão de cada integrante */
 .integrantes:hover{
     background-color: rgba(243, 200, 136, 0.438);
 }
-
+/* Estilização das fotos */
 .foto-integrantes{
     margin-top: 15px;
     margin-bottom: 8px;
@@ -53,17 +50,17 @@ h4{
     height: 200px;
     border-radius: 10px;
 }
-
+/* ìcones das redes sociais de cada membro */
 .icones-sociais{
     margin-top: 7px;
     width: 30px;
     height: 30px;
 }
-
+/* Opacidade dos ícones */
 .icones-sociais{
     opacity: 4;
 }
-
+/* Hover dos ícones */
 .icones-sociais:hover{
     opacity: 0.6;
 }
