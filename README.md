@@ -42,7 +42,7 @@ O Projeto Squad3 utiliza as seguintes tecnologias:
   
 ## Organização do Projeto
 
-A equipe ManicPixieCat é composta pelos seguintes membros e papéis assumidos no squad:
+A equipe Squad3 é composta pelos seguintes membros e papéis assumidos no squad:
 
 - [João Victor] - Co-Facilitador
 - [Isabelle Pontes] - Gestora de Conhecimento
