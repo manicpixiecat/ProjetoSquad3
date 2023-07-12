@@ -60,7 +60,7 @@ A equipe Squad3 é composta pelos seguintes membros e papéis assumidos no squad
 
 Durante o desenvolvimento do projeto, tomamos as seguintes decisões e abordagens decidimos separar as pastas de HTML e Css facilitando a manutenção e revisão do código deixando a estrutura mais organizada como está abaixo
 
-<li>📦 paginas
+<ol>📦 paginas
  ┣ 📂 ...
  ┃ ┣ 📜 assinaturas.html
  ┃ ┣ 📜 contato.html
@@ -72,7 +72,7 @@ Durante o desenvolvimento do projeto, tomamos as seguintes decisões e abordagen
  ┃ ┣ 📂 img
  ┃ ┣ 📂 js
 ┣ 📜 index.html
-┣ 📜 README.md</li>
+┣ 📜 README.md</ol>
 
 
 
