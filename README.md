@@ -50,3 +50,30 @@ A equipe Squad3 é composta pelos seguintes membros e papéis assumidos no squad
 - [Tatielle Santos] - Pessoa Colaboradora
 - [Thiago Souza] - Pessoa Colaboradora
 
+## Evidência de Entrega
+
+O projeto Squad3 é uma plataforma de serviço por assinatura que visa atender a a plataforma de serviço por assinatura que visa atender aos de bebidas, oferecendo uma experiência única de descoberta e apreciação de vinhos de diferentes regiões e estilo semanalmente. Nosso publico alvo são desde jovens que gostariam de apreciar uma nova experiência semanalmente sozinhos ou com amigos, até para familias que buscam mais comodidade na hora de celebrarem datas festivas em familia tendo que se preocupar com uma preparação a menos nessas datas. 
+
+Durante o desenvolvimento do projeto, tomamos as seguintes decisões e abordagens decidimos separar as pastas 
+
+Agradecemos a oportunidade e estamos à disposição para qualquer esclarecimento adicional nas redes abaixo.
+
+Grupo Squad 3 - Desenvolvedores
+
+[<img src="https://manicpixiecat.github.io/ProjetoSquad3/src/img/Integrantes/Jo%C3%A3o.jpeg" width=115 > <br> <sub> João Victor </sub>](https://github.com/Joa1zin) |
+
+[<img src="https://cdn.discordapp.com/attachments/1117793452327981158/1127247645602218104/IMG_8812.jpg" width=115 > <br> <sub> Isabelle Pontes </sub>](https://github.com/isaabellepontes) |
+
+[<img src="https://avatars.githubusercontent.com/u/119619932?v=4" width=115 > <br> <sub> Gabriel Elias </sub>](https://github.com/Gabres96) |
+
+[<img src="https://manicpixiecat.github.io/ProjetoSquad3/src/img/Integrantes/Jo%C3%A3o.jpeg" width=115 > <br> <sub> Thiago Souza </sub>](https://github.com/Thzzao) |
+
+[<img src="https://avatars.githubusercontent.com/u/78283974?v=4" width=115 > <br> <sub> Tati Pires </sub>](https://github.com/manicpixiecat) |
+
+
+
+
+Sinta-se livre para forkar o projeto e adcionar sugestões.
+
+
+
