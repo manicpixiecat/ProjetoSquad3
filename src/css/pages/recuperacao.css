@@ -47,3 +47,7 @@ input {
     border: none;
     border-radius: 30px;
 }
+/* Edição do hover do botão continuar*/
+#enviar-email-rec:hover{
+    background-color: rgb(181, 94, 231);
+}
