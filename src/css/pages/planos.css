@@ -45,9 +45,15 @@ li{
     font-size: 18px;
     margin: 7px;
 }
+
 button{
     width: 100px;
     padding: 10px;
     margin: 30px;
     font-size: 15px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #b3b3b39f;
 }
