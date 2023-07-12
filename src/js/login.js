@@ -3,7 +3,7 @@
 function logar() {
     var email = document.getElementById("email").value;
     var senha = document.getElementById("senha").value;
-    let validaEmail = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?$/i
+
 
     // VALIDAÇÃO DO CAMPO E-MAIL E SENHA
     if (validarEmail (email) && senha.length >= 5) {
