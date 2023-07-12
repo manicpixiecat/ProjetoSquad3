@@ -13,9 +13,20 @@ function redirecionar() {
     // Colocando a pagina de destino
     var url = "login.html";
     // Definir quantos milisegundos 
-    var atraso = 1000
+    var atraso = 900
     // Redireciona para a pagina
     setTimeout(function() {
         window.location.href = url;
     }, atraso);
     }
+
+    function cadastro() {
+        // colocando a pagina de destino 
+        var link = "registro.html";
+        // definindo quantos milisegundos
+        var tempo = 1000
+        // Redireciona para a pagina 
+        setTimeout(function(){
+        window.location.href = link;
+    }, tempo);
+}
