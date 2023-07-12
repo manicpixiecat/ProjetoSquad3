@@ -85,16 +85,17 @@ Grupo Squad 3 - Desenvolvedores
 
 [<img src="https://cdn.discordapp.com/attachments/1117793452327981158/1127247645602218104/IMG_8812.jpg" width=115 > <br> <sub> Isabelle Pontes </sub>](https://github.com/isaabellepontes) |
 
-[<img src="https://avatars.githubusercontent.com/u/119619932?v=4" width=115 > <br> <sub> Gabriel Elias </sub>](https://github.com/Gabres96) |
+[<img src="https://avatars.githubusercontent.com/u/119619932?v=4" width=115 > <br> <sub> Gabriel Elias </sub>](https://github.com/Gabres96) | <sub>Linkedin </sub>
+(https://www.linkedin.com/in/gabriel-elias-439340160/)
 
-[<img src="https://manicpixiecat.github.io/ProjetoSquad3/src/img/Integrantes/Thiago.JPG" width=115 > <br> <sub> Thiago Souza </sub>](https://github.com/Thzzao) |
+[<img src="https://manicpixiecat.github.io/ProjetoSquad3/src/img/Integrantes/Thiago.JPG" width=115 > <br> <sub> Thiago Souza </sub>](https://github.com/Thzzao) | <sub>Linkedin</sub>(https://www.linkedin.com/in/thiagojdss/)
 
-[<img src="https://avatars.githubusercontent.com/u/78283974?v=4" width=115 > <br> <sub> Tati Pires </sub>](https://github.com/manicpixiecat) |
+[<img src="https://avatars.githubusercontent.com/u/78283974?v=4" width=115 > <br> <sub> Tati Pires </sub>](https://github.com/manicpixiecat) | <sub>Linkedin </sub>
+(https://www.linkedin.com/in/tatielle-pires-56b08b204/)
 
 
 
-
-Sinta-se livre para forkar o projeto e adcionar sugestões.
+Sinta-se livre para forkar o projeto e adicionar sugestões.
 
 
 
