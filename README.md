@@ -90,7 +90,7 @@ Grupo Squad 3 - Desenvolvedores
 
 [<img src="https://manicpixiecat.github.io/ProjetoSquad3/src/img/Integrantes/Thiago.JPG" width=115 > <br> <sub> Thiago Souza </sub>](https://github.com/Thzzao) | <sub>Linkedin</sub>(https://www.linkedin.com/in/thiagojdss/)
 
-[<img src="https://avatars.githubusercontent.com/u/78283974?v=4" width=115 > <br> <sub> Tati Pires </sub>](https://github.com/manicpixiecat) |<sub>Linkedin(https://www.linkedin.com/in/tatielle-pires-56b08b204/) </sub>
+[<img src="https://avatars.githubusercontent.com/u/78283974?v=4" width=115 > <br> <sub> Tati Pires </sub>(https://github.com/manicpixiecat) |<sub>Linkedin(https://www.linkedin.com/in/tatielle-pires-56b08b204/) </sub>]
 
 
 
