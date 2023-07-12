@@ -66,7 +66,7 @@ Grupo Squad 3 - Desenvolvedores
 
 [<img src="https://avatars.githubusercontent.com/u/119619932?v=4" width=115 > <br> <sub> Gabriel Elias </sub>](https://github.com/Gabres96) |
 
-[<img src="https://manicpixiecat.github.io/ProjetoSquad3/src/img/Integrantes/Jo%C3%A3o.jpeg" width=115 > <br> <sub> Thiago Souza </sub>](https://github.com/Thzzao) |
+[<img src="https://manicpixiecat.github.io/ProjetoSquad3/src/img/Integrantes/Thiago.JPG" width=115 > <br> <sub> Thiago Souza </sub>](https://github.com/Thzzao) |
 
 [<img src="https://avatars.githubusercontent.com/u/78283974?v=4" width=115 > <br> <sub> Tati Pires </sub>](https://github.com/manicpixiecat) |
 
