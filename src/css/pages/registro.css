@@ -66,11 +66,12 @@ form{
 }
 
 .box-registro-button button {
-    background-color: #c107ff;
     font-size: 20px;
     width: 150px;
-    border: none;
     border-radius: 30px;
+    border: solid black 2px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+    background-color: #c107ff;
 }
 
 .box-registro-button button:hover{

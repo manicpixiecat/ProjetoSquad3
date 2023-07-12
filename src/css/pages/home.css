@@ -34,13 +34,14 @@ main {
 }
 
 .button-home button{
-    background-color: #c107ff;
+    
     color: #000000;
     font-size: 20px;
     width: 140px;
     border-radius: 20px;
     border: solid black 2px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+    background-color: #c107ff;
 }
 
 .button-home button:hover{
