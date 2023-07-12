@@ -8,8 +8,9 @@ body {
     background-color: #d16822;
 }
 
-/* Estilização da página home */
-
+h1{
+    margin-bottom: 30px;
+}
 main {
     display: flex;
     justify-content: center;
