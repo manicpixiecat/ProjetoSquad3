@@ -49,11 +49,13 @@ O Projeto Squad3 utiliza as seguintes tecnologias:
 
 A equipe Squad3 é composta pelos seguintes membros e papéis assumidos no squad:
 
+<div align="center">
 - [João Victor] - Co-Facilitador
 - [Isabelle Pontes] - Gestora de Conhecimento
 - [Gabriel Elias] - Gestor de Pessoas
 - [Tatielle Santos] - Pessoa Colaboradora
 - [Thiago Souza] - Pessoa Colaboradora
+</div>
 
 ## Evidência de Entrega
 
