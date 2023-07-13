@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #d16822;
+    background-color:#A81313;
 }
 
 h1{
@@ -57,7 +57,7 @@ main {
 }
 
 .textoHome {
-    background-color: aliceblue;
+    background-color:rgba(255, 235, 205, 0.507);
     margin: 10px;
     width: 450px;
     padding: 20px;
