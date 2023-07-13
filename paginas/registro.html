@@ -14,9 +14,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=McLaren&display=swap" rel="stylesheet">
+    <!-- Link do JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <!-- Link para o script da página -->
-    <script src="../src/js/registro-script.js" defer></script>
-    <!-- ------------- -->
+    <script src="../src/js/registro.js" defer></script>
+    <script src="../src/js/login.js" defer></script>
+    <!------------------>
 </head>
 
 <body>
@@ -45,7 +48,7 @@
         <div class="box-father-registro">
             <h3>Registre-se</h3>
             <!-- Formulário para a entrada de dados do usuário -->
-            <form>
+            <form id="formulario">
                 <div class="box-child-registro">
                     <div class="box-registro">
                         <input type="text" id="nome-registro" required placeholder="Nome">
@@ -57,10 +60,10 @@
                         <input type="text" id="email-registro" required placeholder="Email">
                     </div>
                     <div class="box-registro">
-                        <input type="text" id="senha-registro" required placeholder="Senha">
+                        <input type="password" id="senha-registro" required placeholder="Senha">
                     </div>
                     <div class="box-registro">
-                        <input type="text" id="confirmacao-senha-registro" required placeholder="Confirme a senha">
+                        <input type="password" id="confirmacao-senha-registro" required placeholder="Confirme a senha">
                     </div>
                     <div class="box-registro">
                         <input type="number" id="cep-registro" required placeholder="CEP">
@@ -86,6 +89,7 @@
                     <div class="box-registro-button">
                         <button type="submit" id="botao-registro">Registrar!</button>
                     </div>
+                    <div id="mensagemRegistro"></div>
                 </div>
             </form>
         </div>
