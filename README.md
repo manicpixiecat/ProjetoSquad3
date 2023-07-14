@@ -80,13 +80,13 @@ Agradecemos a oportunidade e estamos à disposição para qualquer esclareciment
 
 Grupo Squad 3 - Desenvolvedores
 
-[<img src="https://manicpixiecat.github.io/ProjetoSquad3/src/img/Integrantes/Jo%C3%A3o.jpeg" width=115 > <br> <sub> João Victor </sub>](https://github.com/Joa1zin) |
+[<img src="https://manicpixiecat.github.io/ProjetoSquad3/src/img/Integrantes/Jo%C3%A3o.jpeg" width=115 > <br> <sub> João Victor </sub>](https://github.com/Joa1zin) 
 
-[<img src="https://cdn.discordapp.com/attachments/1117793452327981158/1127247645602218104/IMG_8812.jpg" width=115 > <br> <sub> Isabelle Pontes </sub>](https://github.com/isaabellepontes) |
+[<img src="https://cdn.discordapp.com/attachments/1117793452327981158/1127247645602218104/IMG_8812.jpg" width=115 > <br> <sub> Isabelle Pontes </sub>](https://github.com/isaabellepontes) 
 
-[<img src="https://avatars.githubusercontent.com/u/119619932?v=4" width=115 > <br> <sub> Gabriel Elias </sub>](https://github.com/Gabres96) |
+[<img src="https://avatars.githubusercontent.com/u/119619932?v=4" width=115 > <br> <sub> Gabriel Elias </sub>](https://github.com/Gabres96) 
 
-[<img src="https://manicpixiecat.github.io/ProjetoSquad3/src/img/Integrantes/Thiago.JPG" width=115 > <br> <sub> Thiago Souza </sub>](https://github.com/Thzzao) |
+[<img src="https://manicpixiecat.github.io/ProjetoSquad3/src/img/Integrantes/Thiago.JPG" width=115 > <br> <sub> Thiago Souza </sub>](https://github.com/Thzzao) 
 
 [<img src="https://avatars.githubusercontent.com/u/78283974?v=4" width=115 > <br> <sub> Tati Pires </sub>](https://github.com/manicpixiecat) 
 
