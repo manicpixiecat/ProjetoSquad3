@@ -6,12 +6,12 @@
     box-sizing: border-box;
 }
 
-/* Edição do corpo da página*/
+/* Edição do corpo da página */
 body {
     background-color: #caafda;
 }
 
-/*Edição do login e senha*/
+/* Edição do login e senha */
 .box-recuperacao {
     background-color: rgba(207, 127, 6, 0.507);
     text-align: center;
@@ -30,7 +30,7 @@ body {
     z-index: 100;
 }
 
-/*Edição dos campos para preenhcer*/
+/* Edição dos campos para preenhcer */
 input {
     width: 300px;
     padding: 8px;
@@ -38,7 +38,7 @@ input {
     border: none
 }
 
-/* Edição do botão continuar*/
+/* Edição do botão continuar */
 #enviar-email-rec {
     color: #000000;
     font-size: 20px;
@@ -48,7 +48,8 @@ input {
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
     background-color: #e96417;
 }
-/* Edição do hover do botão continuar*/
+
+/* Edição do hover do botão continuar */
 #enviar-email-rec:hover{
     background-color: rgb(181, 94, 231);
 }
