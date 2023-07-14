@@ -11,7 +11,7 @@ footer{
     font-family: 'McLaren', cursive;
     font-size: 17px;
     position: relative;
-    background-color: #c25312;
+    background-color: #73175aa2;
     height: 23vh;
     box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.4);
 }
@@ -30,7 +30,7 @@ footer{
 
 /* Estilização do hover dos botões */
 .mapa-do-site a:hover{
-    color: #b18662;
+    color: #591246;
 }
 
 /* Lista dos links das seções e do endereço */

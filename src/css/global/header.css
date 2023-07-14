@@ -11,7 +11,7 @@ header{
     font-family: 'McLaren', cursive;
     font-size: 20px;
     backdrop-filter: blur(10px);
-    background-color: #c25312;
+    background-color: #a72284ad;
     position: relative;
     top: 0;
     height: 10vh;
@@ -54,7 +54,7 @@ a{
 
 /* Estilização do hover dos links */
 a:hover{
-    color: #b18662;;
+    color: #591246;
 }
 
 /* Espaçamento do botão de registro */
