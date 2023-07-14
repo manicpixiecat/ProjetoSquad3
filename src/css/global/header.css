@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-
+/* Estiização do corpo do cabeçario */
 header{
     font-family: 'McLaren', cursive;
     font-size: 20px;
@@ -19,15 +19,7 @@ header{
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
 }
 
-a{
-    text-decoration: none;
-    color: #ffffff;
-}
-
-a:hover{
-    color: #b18662;;
-}
-
+/* Estilização do container */
 .container-header {
     background-color: rgba(255, 235, 205, 0.021);
     min-height: 0;
@@ -38,21 +30,37 @@ a:hover{
     height: 100%;
 }
 
+/* Link das seções do site */
 .navegacao {
     display: flex;
 }
 
+/* Espaçamento dos links */
 .navegacao > a {
     padding-left: 25px;
 }
 
+/* Estilização da logo do site */
+.imagem-logo {
+    margin-top: 8px;
+    width: 200px;
+}
+
+/* Estilização dos links */
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Estilização do hover dos links */
+a:hover{
+    color: #b18662;;
+}
+
+/* Espaçamento do botão de registro */
 .registro{
     margin-left: 30px;
     padding-right: 25px;
 }
 
-.imagem-logo {
-    margin-top: 8px;
-    width: 200px;
-}
 
