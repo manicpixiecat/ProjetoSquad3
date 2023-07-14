@@ -13,7 +13,7 @@ body {
 
 /*Edição do login e senha*/
 .formularioLogin {
-    background-color: rgba(207, 127, 6, 0.507);
+    background-color: rgba(153, 120, 153, 0.514);
     text-align: center;
     height: 400px;
     margin-top: 80px;
@@ -46,9 +46,9 @@ input {
     border-radius: 30px;
     border: solid black 2px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
-    background-color: #e96417;
+    background-color:  #b31e75a8;
 }
 /* Edição do hover do botão continuar*/
 #continuar:hover{
-    background-color: rgb(181, 94, 231);
+    background-color: #8f3a92a9;
 }

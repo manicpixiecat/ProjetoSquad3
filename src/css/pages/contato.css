@@ -46,7 +46,7 @@ body {
 
 /* Hover da divisão de cada integrante */
 .integrantes:hover{
-    background-color: rgba(243, 200, 136, 0.438);
+    background-color: rgba(133, 83, 250, 0.342);
 }
 
 /* Estilização das fotos */
@@ -61,6 +61,7 @@ body {
 /* Ícones das redes sociais de cada membro */
 .icones-sociais{
     margin-top: 7px;
+    margin-left: 3px;
     width: 30px;
     height: 30px;
 }

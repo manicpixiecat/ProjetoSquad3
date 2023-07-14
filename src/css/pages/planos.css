@@ -13,7 +13,7 @@ body{
 
 /* Tamanho do h1 */
 h1 {
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     font-size: 35px;
 }
@@ -23,14 +23,16 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    padding-bottom: 20px;
 }
 
 /* Estilização dos planos */
 .planos {
     margin: 25px;
     flex-basis: 20%;
+    height: 100%;
     padding: 20px;
-    background-color: rgb(201, 197, 201);
+    background-color: rgba(153, 120, 153, 0.514);
     border-radius: 10px;
     text-align: center;
     box-shadow: 1px 2px 2px 3px rgba(0, 0, 0, 0.4);
@@ -38,7 +40,7 @@ h1 {
 
 /* Estilização da tag h2 dos planos */
 .planos h2 {
-    color: #333;
+    color: #000000b0;
     text-align: center;
 }
 
@@ -63,10 +65,10 @@ button{
     border-radius: 20px;
     border: solid black 2px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
-    background-color: #e96417;
+    background-color:  #b31e75a8;
 }
 
 /* Estilização do hover do botão */
 button:hover{
-    background-color: rgb(181, 94, 231);
+    background-color: #8f3a92a9;
 }

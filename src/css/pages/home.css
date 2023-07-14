@@ -18,7 +18,7 @@ body {
     width: 70%;
     height: 450px;
     position: relative;
-    border-radius: 10px;
+    border-radius: 20px;
     left: 50%;
     transform: translate(-50%);
     background-image: url(./img-slider/vinho4.png);
@@ -57,7 +57,7 @@ h1{
 
 /* Estilização do texto */
 .textoHome {
-    background-color:rgba(255, 235, 205, 0.507);
+    background-color:rgba(153, 120, 153, 0.514);
     margin: 10px;
     padding: 20px;
     border-radius: 20px;
@@ -88,11 +88,12 @@ h1{
 .button-home button{
     color: #000000;
     font-size: 20px;
-    width: 140px;
+    width: 150px;
+    padding: 2px;
     border-radius: 20px;
     border: solid black 2px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
-    background-color:  #b31e9fc9;
+    background-color:  #b31e75a8;
 }
 
 /* Estilização da hover do botão */
