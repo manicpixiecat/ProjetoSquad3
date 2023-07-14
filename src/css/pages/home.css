@@ -17,16 +17,16 @@ body {
     border-radius: 10px;
     left: 50%;
     transform: translate(-50%);
-    background-image: url(/src/img/vinho3.png);
+    background-image: url(./src/img/vinho3.png);
     background-size: 100% 100%;
     box-shadow: 1px 2px 10px 5px rgba(0, 0, 0, 0.404);
     animation:slider 10s infinite alternate;
 }
 
 @keyframes slider{
-    0%{background-image: url(/src/img/vinho2.png);}
-    35%{background-image: url(/src/img/vinho4.png);}
-    75%{background-image: url(/src/img/vinho1.png);}
+    0%{background-image: url(./src/img/vinho2.png);}
+    35%{background-image: url(./src/img/vinho4.png);}
+    75%{background-image: url(./src/img/vinho1.png);}
 }
 
 
