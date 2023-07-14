@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +16,6 @@
     <script src="../src/script/login.js" defer></script>
     <script src="../src/js/mensagem.js"></script>
 </head>
-
 <body>
     <header class="header">
         <!-- Container para melhor estilização -->
@@ -39,13 +37,12 @@
             </nav>
         </div>
     </header>
-    <!--Campos para preencher o login-->
+    <!--Redefinição de senha-->
     <main id="recuperacao">
         <div class="box-recuperacao">
             <h2>Recuperação de senha</h2>
             <!--Campo para inserir e-mail-->
             <input id="email-recuperacao" type="text" placeholder="Digite seu e-mail">
-            <!--Redefinição de senha-->
             <!--Botão para continuar-->
             <button id="enviar-email-rec" onclick="exibirMensagem(), redirecionar()">Enviar!</button>
             <div id="mensagem"></div>
@@ -87,5 +84,4 @@
         </div>
     </footer>
 </body>
-
 </html>
