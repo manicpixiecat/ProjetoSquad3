@@ -8,9 +8,8 @@
 }
 
 body {
-    background-color: #A81313;
+    background-color: #caafda;
 }
-
 /* ---------------- */
 
 /* Estilização da página de registro */
@@ -40,7 +39,7 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 235, 205, 0.507);
+    background-color: rgba(207, 127, 6, 0.507);
     padding: 30px;
     box-shadow: 1px 2px 2px 3px rgba(0, 0, 0, 0.4);
 }
@@ -71,7 +70,7 @@ form{
     border-radius: 30px;
     border: solid black 2px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
-    background-color: #c107ff;
+    background-color: #e96417;
 }
 
 .box-registro-button button:hover{

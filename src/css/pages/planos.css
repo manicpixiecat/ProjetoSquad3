@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #A81313;
+    background-color: #caafda;
 }
 
 h1 {
@@ -54,7 +54,7 @@ button{
     border-radius: 20px;
     border: solid black 2px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
-    background-color: #c107ff;
+    background-color: #e96417;
 }
 
 button:hover{

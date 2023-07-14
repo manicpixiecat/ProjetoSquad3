@@ -9,7 +9,7 @@ header{
     font-family: 'McLaren', cursive;
     font-size: 20px;
     backdrop-filter: blur(10px);
-    background-color: rgb(255, 255, 255);
+    background-color: #c25312;
     position: relative;
     top: 0;
     height: 10vh;
@@ -19,7 +19,7 @@ header{
 
 a{
     text-decoration: none;
-    color: #A81313;
+    color: #ffffff;
 }
 
 a:hover{
@@ -27,7 +27,7 @@ a:hover{
 }
 
 .container-header {
-    background-color: rgba(255, 235, 205, 0.507);
+    background-color: rgba(255, 235, 205, 0.021);
     min-height: 0;
     margin: 0 auto;
     display: flex;
