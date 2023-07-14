@@ -9,7 +9,7 @@
 /* Estilização do corpo da página*/
 body {
     width: 100%;
-    background-color:#e0133f60;
+    background-color:#caafdad5;
 }
 
 /* Formatação dos slides de foto */
@@ -92,12 +92,12 @@ h1{
     border-radius: 20px;
     border: solid black 2px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
-    background-color:  #b31e8b;
+    background-color:  #b31e9fc9;
 }
 
 /* Estilização da hover do botão */
 .button-home button:hover{
-    background-color: #75185c5b;
+    background-color: #8f3a92a9;
 }
 
 /* Estilização do texto dentro do botão */
