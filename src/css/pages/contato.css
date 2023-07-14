@@ -9,6 +9,8 @@
 /* Estilização da cor da página */
 body {
     background-color:#caafda;
+    width: 100%;
+    height: 100%;
 }
 
 /* Título */
