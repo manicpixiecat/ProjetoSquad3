@@ -11,7 +11,8 @@ footer{
     font-family: 'McLaren', cursive;
     font-size: 17px;
     width: 100%;
-    position: relative;
+    position:relative;
+    bottom: 0;
     background-color: #753370a2;
     box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.4);
 }
