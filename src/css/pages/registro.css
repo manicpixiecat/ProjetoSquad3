@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'McLaren', cursive;
+    box-sizing: border-box;
+}
+
+/* Estilização do corpo da página */
+body {
+    background-color: #caafda;
+}
+
+/* Estilização do formulário */
+form{
+    padding-top:  10px;
+}
+
+/* Estilização da página */
+.registro {
+    height: 100vh;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilização da divisória do formulário */
+.box-father-registro {
+    margin: 15px;
+    height: max-content;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 20px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(153, 120, 153, 0.514);
+    padding: 30px;
+    box-shadow: 1px 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilização da divisória filha do formulário */
+.box-child-registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+/* Estilização dos inputs do formulário */
+.box-registro input {
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    padding-left: 5px;
+    border: none;
+}
+
+/* Estilização do botão */
+.box-registro-button button {
+    font-size: 20px;
+    width: 150px;
+    border-radius: 30px;
+    border: solid black 2px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+    background-color:  #b31e75a8;
+}
+
+/* Estilização do hover do botão */
+.box-registro-button button:hover{
+    background-color: #8f3a92a9;
+}

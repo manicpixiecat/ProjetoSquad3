@@ -1,0 +1,67 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'McLaren', cursive;
+    box-sizing: border-box;
+}
+
+/* Estiização do corpo do cabeçario */
+header{
+    font-family: 'McLaren', cursive;
+    font-size: 20px;
+    backdrop-filter: blur(10px);
+    background-color: #751f6eb2;
+    position: relative;
+    top: 0;
+    height: 10vh;
+    width: auto;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilização do container */
+.container-header {
+    background-color: rgba(255, 235, 205, 0.021);
+    min-height: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+/* Link das seções do site */
+.navegacao {
+    display: flex;
+}
+
+/* Espaçamento dos links */
+.navegacao > a {
+    padding-left: 25px;
+}
+
+/* Estilização da logo do site */
+.imagem-logo {
+    margin-top: 12px;
+    width: 200px;
+}
+
+/* Estilização dos links */
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Estilização do hover dos links */
+a:hover{
+    color: #591246;
+    font-weight: bold;
+}
+
+/* Espaçamento do botão de registro */
+.registro{
+    margin-left: 30px;
+    padding-right: 25px;
+}
+
+

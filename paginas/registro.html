@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <!-- Seção de link para estilização -->
+    <link rel="stylesheet" href="../src/css/pages/registro.css">
+    <link rel="stylesheet" href="../src/css/global/header.css">
+    <link rel="stylesheet" href="../src/css/global/footer.css">
+    <!-- Link para o estilo da fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=McLaren&display=swap" rel="stylesheet">
+    <!-- Link do JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- Link para o script da página -->
+    <script src="../src/js/registro.js" defer></script>
+    <script src="../src/js/login.js" defer></script>
+</head>
+<body>
+    <header>
+        <!-- Container para melhor estilização -->
+        <div class="container-header">
+            <!-- Logo da empresa -->
+            <div class="logo">
+                <img class="imagem-logo" src="../src/img/logo.png" alt="logo do site" />
+            </div>
+            <!-- Seções do site -->
+            <nav class="navegacao">
+                <a href="../index.html">Home</a>
+                <a href="assinaturas.html">Planos</a>
+                <a href="contato.html">Contato</a>
+                <div class="registro">
+                    <a href="registro.html">Registro</a>
+                    <a>/</a>
+                    <a href="login.html">Login</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Conteúdo principal da página -->
+    <main class="registro" id="registro">
+        <!-- Box para a seção de registro -->
+        <div class="box-father-registro">
+            <h3>Registre-se</h3>
+            <!-- Formulário para a entrada de dados do usuário -->
+            <form id="formulario">
+                <div class="box-child-registro">
+                    <div class="box-registro">
+                        <input type="text" id="nome-registro" required placeholder="Nome">
+                    </div>
+                    <div class="box-registro">
+                        <input type="number" id="RG-registro" required placeholder="RG">
+                    </div>
+                    <div class="box-registro">
+                        <input type="text" id="email-registro" required placeholder="Email">
+                    </div>
+                    <div class="box-registro">
+                        <input type="password" id="senha-registro" required placeholder="Senha">
+                    </div>
+                    <div class="box-registro">
+                        <input type="password" id="confirmacao-senha-registro" required placeholder="Confirme a senha">
+                    </div>
+                    <div class="box-registro">
+                        <input type="number" id="cep-registro" required placeholder="CEP">
+                    </div>
+                    <div class="box-registro">
+                        <input type="text" id="cidade-registro" required placeholder="Cidade">
+                    </div>
+                    <div class="box-registro">
+                        <input type="text" id="estado-registro" required placeholder="Estado">
+                    </div>
+                    <div class="box-registro">
+                        <input type="text" id="bairro-registro" required placeholder="Bairro">
+                    </div>
+                    <div class="box-registro">
+                        <input type="text" id="rua-registro" required placeholder="Rua">
+                    </div>
+                    <div class="box-registro">
+                        <input type="text" id="complemento-registro" required placeholder="Complemento">
+                    </div>
+                    <div class="box-registro">
+                        <input type="text" id="numero-registro" required placeholder="Numero">
+                    </div>
+                    <!-- Botão para enviar os dados -->
+                    <div class="box-registro-button">
+                        <button type="submit" id="botao-registro">Registrar!</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <!-- Container para estilização -->
+        <div class="container-footer">
+            <!-- Logo da empresa -->
+            <div class="logo">
+                <img class = "imagem-logo" src="../src/img/logo.png" alt="Logo" />
+            </div>
+            <!-- Links para acesso as outras páginas -->
+            <nav class="mapa-do-site">
+                <menu>
+                    <li class="botao-footer"><a href="../index.html">Home</a></li>
+                    <li class="botao-footer"><a href="./assinaturas.html">Planos</a></li>
+                    <li class="botao-footer"><a href="./contato.html">Contato</a></li>
+                </menu>
+            </nav>
+            <!-- Classe de infomações da nossa empresa -->
+            <div class="informacoes">
+                <ul>
+                    <li>Endereço: R. Carlos Gomes, 150 - Curitiba</li>
+                    <li>Telefone: (41) 9 98002-8922</li>
+                    <li>CNPJ: 25.147.528/0001-01</li>
+                    <li>Todos os direitos reservados.</li>
+                </ul>
+            </div>
+            <!-- Mídias sociais -->
+            <div class="social-media">
+                <a href="https://instagram.com/" target="_blank">
+                    <img class="logo-sociais" src="../src/img/Icones/instagram-footer.png" alt="Ícone do Instagram" />
+                </a>
+                <a href="https://github.com/manicpixiecat/ProjetoSquad3/tree/main" target="_blank">
+                    <img class="logo-sociais" src="../src/img/Icones/github-footer.png" alt="Ícone do GitHub" />
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

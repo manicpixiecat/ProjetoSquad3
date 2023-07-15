@@ -1,0 +1,76 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'McLaren', cursive;
+    box-sizing: border-box;
+}
+
+/* Estilização da tag footer */
+footer{
+    font-family: 'McLaren', cursive;
+    font-size: 17px;
+    width: 100%;
+    position:relative;
+    bottom: 0;
+    background-color: #753370a2;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Container do rodapé */
+.container-footer{
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 0;
+    /* height: 100%; */
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+/* Estilização do hover dos botões */
+.mapa-do-site a:hover{
+    color: #591246;
+    font-weight: bold;
+}
+
+/* Lista dos links das seções e do endereço */
+li{
+    list-style: none; 
+    padding: 1px;
+}
+
+/* Botão dos links das seções */
+.botao-footer{
+    font-size: 20px;
+    padding: 7px;
+}
+
+/* Campo do endereço */
+.informacoes{
+    color: rgb(61, 7, 7);
+}
+
+/* Container dos ícones de mídia social */
+.social-media{
+    display: flex;
+    gap: 12px;
+}
+
+/* Estilização dos ícones das redes socias  */
+.logo-sociais{
+    width: 30px;
+    height: 30px;
+}
+
+/* Opacidade dos ícones */
+.social-media a{
+    opacity: 0.8;
+}
+
+/* Adição do hover nos ícones das redes sociais */
+.social-media a:hover{
+    opacity: 4;
+}
+

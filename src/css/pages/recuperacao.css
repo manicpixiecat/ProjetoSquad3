@@ -1,0 +1,57 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'McLaren', cursive;
+    box-sizing: border-box;
+}
+
+/* Edição do corpo da página */
+body {
+    background-color: #caafda;
+    width: 100%;
+    height: 100%;
+}
+
+/* Edição do login e senha */
+.box-recuperacao {
+    background-color: rgba(153, 120, 153, 0.514);
+    text-align: center;
+    height: 400px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 80px;
+    padding: 30px;
+    box-shadow: 1px 2px 2px 3px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+
+/* Edição dos campos para preenhcer */
+input {
+    width: 300px;
+    padding: 8px;
+    border-radius: 7px;
+    border: none
+}
+
+/* Edição do botão continuar */
+#enviar-email-rec {
+    color: #000000;
+    font-size: 20px;
+    width: 150px;
+    border-radius: 30px;
+    border: solid black 2px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+    background-color:  #b31e75a8;
+}
+
+/* Edição do hover do botão continuar */
+#enviar-email-rec:hover{
+    background-color: #8f3a92a9;
+}

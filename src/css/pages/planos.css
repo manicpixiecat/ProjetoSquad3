@@ -1,0 +1,74 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'McLaren', cursive;
+    box-sizing: border-box;
+}
+
+/* Estilização do corpo da página */
+body{
+    background-color: #caafdad5;
+}
+
+/* Tamanho do h1 */
+h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Estilização do container */
+.planos-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+
+/* Estilização dos planos */
+.planos {
+    margin: 25px;
+    flex-basis: 20%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgba(153, 120, 153, 0.514);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilização da tag h2 dos planos */
+.planos h2 {
+    color: #000000b0;
+    text-align: center;
+}
+
+/* Estilização da tag p dos planos */
+.planos p {
+    color: #666;
+    text-align: center;
+}
+
+/* Estilização das linhas como uma lista */
+li{
+    font-size: 18px;
+    margin: 7px;
+}
+
+/* Estilização do botão */
+button{
+    width: 100px;
+    padding: 10px;
+    margin: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: solid black 2px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+    background-color:  #b31e75a8;
+}
+
+/* Estilização do hover do botão */
+button:hover{
+    background-color: #8f3a92a9;
+}

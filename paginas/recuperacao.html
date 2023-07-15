@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Links para estilização -->
+    <link rel="stylesheet" href="../src/css/pages/recuperacao.css">
+    <link rel="stylesheet" href="../src/css/global/header.css">
+    <link rel="stylesheet" href="../src/css/global/footer.css">
+    <!-- Link para o estilo da fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=McLaren&display=swap" rel="stylesheet">
+    <!-- Link para o script da página -->
+    <script src="../src/script/login.js" defer></script>
+    <script src="../src/js/mensagem.js"></script>
+</head>
+<body>
+    <header class="header">
+        <!-- Container para melhor estilização -->
+        <div class="container-header">
+            <!-- Logo da empresa -->
+            <div class="logo">
+                <img class="imagem-logo" src="../src/img/logo.png" alt="logo do site" />
+            </div>
+            <!-- Seções do site -->
+            <nav class="navegacao">
+                <a href="../index.html">Home</a>
+                <a href="assinaturas.html">Planos</a>
+                <a href="contato.html">Contato</a>
+                <div class="registro">
+                    <a href="registro.html">Registro</a>
+                    <a>/</a>
+                    <a href="login.html">Login</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--Redefinição de senha-->
+    <main id="recuperacao">
+        <div class="box-recuperacao">
+            <h2>Recuperação de senha</h2>
+            <!--Campo para inserir e-mail-->
+            <input id="email-recuperacao" type="text" placeholder="Digite seu e-mail">
+            <!--Botão para continuar-->
+            <button id="enviar-email-rec" onclick="exibirMensagem(), redirecionar()">Enviar!</button>
+            <div id="mensagem"></div>
+        </div>
+    </main>
+    <footer class="footer">
+        <!-- Container para estilização -->
+        <div class="container-footer">
+            <!-- Logo da empresa -->
+            <div class="logo">
+                <img class="imagem-logo" src="../src/img/logo.png" alt="logo do site" />
+            </div>
+            <!-- Links para acesso as outras páginas -->
+            <nav class="mapa-do-site">
+                <menu>
+                    <li class="botao-footer"><a href="../index.html">Home</a></li>
+                    <li class="botao-footer"><a href="assinaturas.html">Planos</a></li>
+                    <li class="botao-footer"><a href="contato.html">Contato</a></li>
+                </menu>
+            </nav>
+            <!-- Classe de infomações da nossa empresa -->
+            <div class="informacoes">
+                <ul>
+                    <li>Endereço: R. Carlos Gomes, 150 - Curitiba</li>
+                    <li>Telefone: (41) 9 98002-8922</li>
+                    <li>CNPJ: 25.147.528/0001-01</li>
+                    <li>Todos os direitos reservados.</li>
+                </ul>
+            </div>
+            <!-- Mídias sociais -->
+            <div class="social-media">
+                <a href="https://instagram.com/" target="_blank">
+                    <img class="logo-sociais" src="../src/img/Icones/instagram-footer.png" alt="Ícone do Instagram" />
+                </a>
+                <a href="https://github.com/manicpixiecat/ProjetoSquad3/tree/main" target="_blank">
+                    <img class="logo-sociais" src="../src/img/Icones/github-footer.png" alt="Ícone do GitHub" />
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
